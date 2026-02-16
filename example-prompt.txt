@@ -1,0 +1,123 @@
+Example prompts for the mock DigiKey catalog (5000 products)
+
+Expanded coverage prompts
+
+Show a broad mix of in-stock components across power, RF, sensing, and interconnect.
+Find top 20 in-stock parts for an industrial IoT controller under $15 each.
+I need a high-availability BOM starter set: MCU, regulator, op amp, connectors, and passives.
+Show parts with highest stock in resistors, capacitors, and switches for production planning.
+Find low-cost options in each major category for a proof-of-concept build.
+
+Raspberry Pi and accessories
+
+Find Raspberry Pi 5 Model B 8GB for an edge AI gateway.
+Find Raspberry Pi 5 Model B 4GB for a lower-cost Linux controller.
+I need Raspberry Pi 4 Model B 8GB for an industrial prototype.
+Show Raspberry Pi Zero 2 W options for compact wireless devices.
+Find Raspberry Pi Compute Module 4 for a custom carrier board project.
+I need Raspberry Pi Camera Module 3 for machine-vision capture.
+Find Raspberry Pi 7-inch touch display for an HMI panel.
+Show Raspberry Pi Official USB-C 27W PSU with strong stock.
+Find Raspberry Pi Official Case for Pi 5.
+I need Raspberry Pi PoE+ HAT for remote network-powered deployment.
+Find Raspberry Pi NVMe Base HAT for high-speed local storage.
+Show Raspberry Pi GPIO Breakout HAT for quick prototyping.
+Find Raspberry Pi accessories for classroom lab kits.
+Find in-stock Raspberry Pi add-on boards for automation projects.
+Show complete Raspberry Pi 5 starter bundles with PSU, case, and microSD.
+Find Raspberry Pi camera + ribbon + mount combinations for vision projects.
+I need Raspberry Pi Zero 2 W power and connectivity accessories for compact builds.
+Find Raspberry Pi HATs for relay control and industrial automation.
+Show Raspberry Pi-compatible displays and touch interfaces under $80.
+Find Raspberry Pi thermal kits with fan and heatsink for 24/7 operation.
+I need Raspberry Pi storage options (NVMe HAT + microSD) for edge logging.
+Show Raspberry Pi PoE deployment parts with strong stock for 50 units.
+Find lowest-cost Raspberry Pi accessories for classroom rollout (minimum qty 100).
+Show top 10 Raspberry Pi ecosystem parts by stock availability.
+
+Power and regulators
+
+Find low-noise LDO regulators under $5 for sensor rails.
+Show PMIC voltage regulators for SBC power rail design.
+Find high-efficiency buck converter modules for 5V systems.
+I need dual-rail PMIC options for mixed-signal boards.
+Show voltage regulators with high stock for production builds.
+Find regulator options for 12V to 3.3V conversion under $2.
+Show best-stock buck converters for 24V industrial input rails.
+Find low-Iq LDO regulators for battery-powered sensor nodes.
+
+Wireless and connectivity
+
+Find ESP32 wireless modules for IoT telemetry nodes.
+Show RF transceiver modules for low-power wireless products.
+Find BLE modules suitable for battery-powered wearables.
+I need Wi-Fi modules with good availability.
+Show LoRa module options for long-range sensing.
+Find Nordic-based BLE modules with high stock.
+Show lowest-cost Wi-Fi modules under $8 for IoT gateways.
+
+Sensors and transducers
+
+Find temperature sensors for cold-chain monitoring with high stock.
+Show pressure sensors suitable for industrial pneumatic systems.
+Find IMU sensors for balancing robots and motion tracking.
+I need ToF distance sensors for obstacle detection.
+Show environmental sensors for humidity and air quality logging.
+
+Data conversion and timing
+
+Find 16-bit ADC options for precision measurement.
+Show 12-bit ADC parts for cost-sensitive sensing.
+Find precision DAC devices for analog control outputs.
+I need MEMS oscillator parts for MCU clocking.
+Show crystal and TCXO timing parts for stable references.
+Find sigma-delta ADC options for low-noise instrumentation.
+Show low-jitter oscillator options for communication subsystems.
+
+Cables, memory, and mechanical
+
+Find Micro-HDMI cables for Raspberry Pi display output.
+Show USB-C cable assemblies for power and debug.
+Find CSI ribbon cable options for camera integration.
+I need industrial microSD cards for edge data logging.
+Show eMMC and microSD storage modules with in-stock inventory.
+Find cooling fans and heatsinks for SBC thermal management.
+Show durable cable assemblies for field deployment kits.
+Find storage options rated for extended temperature operation.
+
+Core components and embedded design
+
+Find STM32-class microcontroller options for motor control.
+Show embedded processor controllers for IoT endpoints.
+Find low-noise rail-to-rail op amps for sensor conditioning.
+I need precision resistors for analog front-end tuning.
+Show MLCC capacitors for digital rail decoupling.
+Find connectors and pin headers for board interconnect.
+Show development kits for rapid firmware bring-up.
+Find display modules (OLED or TFT) for embedded UI.
+Find tactile or toggle switches for panel controls.
+Find terminal blocks and FFC connectors for compact embedded carrier boards.
+Show current-sense resistors and low-ESR capacitors for power integrity tuning.
+Find robust connectors for vibration-prone industrial enclosures.
+
+Price, stock, and procurement prompts
+
+Find top 5 in-stock Raspberry Pi accessories under $40.
+Show cheapest in-stock RF modules for IoT prototypes.
+Find top 8 components for edge control with high stock.
+I need power supplies under $25 with large inventory.
+Show in-stock embedded dev kits for quick proof-of-concept.
+Find parts under $1 with at least 10,000 units available.
+Show categories with the best price-to-stock tradeoff for production runs.
+I need alternatives to this part family with lower price and higher stock.
+Find components suitable for a 500-unit pilot build this month.
+
+Prompt patterns that also work well
+
+Find top 10 in-stock <category> under $<budget> for <use case>.
+Show cheapest <part type> for <application> with good stock.
+I need <platform/accessory> for <project>, prioritize availability.
+Find <component family> with high stock and low unit price.
+Build a <project type> BOM using <price cap> and <minimum quantity> constraints.
+Compare <component family A> vs <component family B> for <use case> under $<budget>.
+Find drop-in alternatives for <part type> with at least <min quantity> in stock.

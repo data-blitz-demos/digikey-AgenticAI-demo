@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--
+      Property of Data-Blitz Inc.
+      Author: Paul Harvener
+    -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DigiKey AI Equipment Advisor</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body class="dk-body">
+    <div class="dk-utility-bar">
+      <div class="dk-container utility-inner">
+        <a href="#">Order Status</a>
+        <a href="#">Help</a>
+        <a href="#">Shipping</a>
+        <a href="#">Currency: USD</a>
+      </div>
+    </div>
+
+    <header class="dk-main-header">
+      <div class="dk-container main-header-inner">
+        <a href="/" class="logo-link" aria-label="DigiKey Home">
+          <img src="/static/assets/digikey-logo.svg" alt="DigiKey" class="dk-logo" />
+        </a>
+
+        <div class="site-search" role="search">
+          <label class="sr-only" for="site-search-input">Search products</label>
+          <input id="site-search-input" type="text" placeholder="Search by keyword, manufacturer part number, or category" />
+          <button id="site-search-button" type="button">Search</button>
+        </div>
+
+        <div class="header-actions" aria-label="Account and cart">
+          <a href="#">Sign In</a>
+          <a href="#">Register</a>
+          <a href="#" class="cart-chip">Cart (0)</a>
+        </div>
+      </div>
+    </header>
+
+    <nav class="dk-category-nav" aria-label="Primary">
+      <div class="dk-container category-inner">
+        <a href="#">Products</a>
+        <a href="#">Manufacturers</a>
+        <a href="#">Solutions</a>
+        <a href="#">Resources</a>
+        <a href="#">Support</a>
+      </div>
+    </nav>
+
+    <main class="dk-page">
+      <div class="dk-container page-grid">
+        <section class="assistant-intro">
+          <div class="badge-row">
+            <span class="badge-red">DigiKey AI Demo</span>
+            <span class="badge-dark">Authorized Catalog Mock</span>
+          </div>
+          <h1>Natural-language component selection</h1>
+          <p>
+            Describe your design need in plain language. The assistant parses your request, searches the Elasticsearch
+            catalog, and returns recommended parts with stock, price, and datasheet links.
+          </p>
+        </section>
+
+        <section class="assistant-card">
+          <form id="chat-form" class="chat-form">
+            <label for="prompt">Describe what you need</label>
+            <textarea
+              id="prompt"
+              rows="3"
+              placeholder="Example: Find top 5 in-stock low-noise 3.3V regulators under $3 for sensor rails"
+              required
+            ></textarea>
+            <button type="submit" class="submit-btn">Find Matching Parts</button>
+          </form>
+          <div class="status" id="status"></div>
+          <div class="response" id="response"></div>
+        </section>
+
+        <section class="results-card">
+          <div class="results-head">
+            <h2>Recommended Products</h2>
+            <span id="result-count" class="result-count">0 Results</span>
+          </div>
+
+          <div class="table-wrap">
+            <table class="results-table">
+              <thead>
+                <tr>
+                  <th>Part Number</th>
+                  <th>Description</th>
+                  <th>Category</th>
+                  <th>Availability</th>
+                  <th>Unit Price</th>
+                  <th>Fit Score</th>
+                  <th>Links</th>
+                </tr>
+              </thead>
+              <tbody id="results"></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script src="/static/app.js" defer></script>
+  </body>
+</html>
