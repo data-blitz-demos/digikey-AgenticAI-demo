@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="620" height="180" viewBox="0 0 620 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="demokey logo">
+  <title>demokey</title>
+  <rect x="6" y="10" width="608" height="160" rx="34" fill="#ee2821"/>
+  <text
+    x="310"
+    y="102"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    fill="#ffffff"
+    font-family="Arial Black, Arial, Helvetica, sans-serif"
+    font-size="86"
+    font-style="italic"
+    font-weight="900"
+    letter-spacing="2"
+  >demokey</text>
+</svg>

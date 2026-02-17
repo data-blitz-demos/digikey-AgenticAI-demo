@@ -75,12 +75,15 @@ a {
   align-items: center;
   background: #fff;
   border-radius: 0.35rem;
-  padding: 0.36rem 0.5rem;
+  padding: clamp(0.24rem, 0.7vw, 0.36rem) clamp(0.34rem, 1vw, 0.5rem);
   border: 1px solid #d5d5d9;
+  width: fit-content;
+  max-width: 100%;
 }
 
 .dk-logo {
-  width: 8.7rem;
+  width: clamp(4.8rem, 9vw, 6.3rem);
+  max-width: 100%;
   height: auto;
   display: block;
 }
@@ -488,6 +491,10 @@ a {
 @media (max-width: 680px) {
   .dk-container {
     width: min(1360px, calc(100% - 1rem));
+  }
+
+  .dk-logo {
+    width: 5rem;
   }
 
   .results-table {

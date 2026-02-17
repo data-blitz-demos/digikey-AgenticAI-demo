@@ -108,7 +108,7 @@ Find top 8 components for edge control with high stock.
 I need power supplies under $25 with large inventory.
 Show in-stock embedded dev kits for quick proof-of-concept.
 Find parts under $1 with at least 10,000 units available.
-Show categories with the best price-to-stock tradeoff for production runs.
+Find connectors and pin headers for board interconnect.
 I need alternatives to this part family with lower price and higher stock.
 Find components suitable for a 500-unit pilot build this month.
 
