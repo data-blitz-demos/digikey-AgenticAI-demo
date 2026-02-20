@@ -1,9 +1,9 @@
-# DigiKey Generative AI Demo (Elasticsearch + Kibana + Docker Compose)
+# agentic-digitkey-demo
 
 Property of Data-Blitz Inc.  
 Author: Paul Harvener
 
-This demo provides an AI assistant for DigiKey-style component discovery:
+This demo provides an AI assistant for electronics vendors component discovery:
 - Customers ask in natural language.
 - The assistant extracts intent.
 - Elasticsearch returns ranked mock catalog matches.
